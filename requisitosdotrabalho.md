@@ -1,8 +1,10 @@
-tema: Informação de alimentos,
-  organizados por ordem alfabetica,
-  barra de pesquisa,
-  valor alimenticios,
-  caracateristica gerais,
-  regioes,
-  trivia,
-  menu dropdown por fruta?.
+## Tema:
+  * Informação de alimentos,
+## Aspéctos do site:
+  * Organizados por ordem alfabetica,
+  * Barra de pesquisa,
+  * Valor alimenticios,
+  * Caracateristica gerais,
+  * Regioes,
+  * Trivia,
+  * Menu dropdown por fruta?.
