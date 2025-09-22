@@ -1,14 +1,7 @@
-´´´
-Mermaid
-´´´
-´´´
----
-config:
-  theme: forest
-  look: handDrawn
----
+```Mermaid
+
 flowchart TB
-    A["Usuario"] 
+    A["Usuario"]
     B["Busca Alimentos"]
     C["Informaçãos dos alimentos"]
     D["Administrador"]
@@ -16,4 +9,4 @@ flowchart TB
     A --> B
     B --- C
     D --> E
-´´´
+```
