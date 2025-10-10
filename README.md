@@ -41,6 +41,8 @@ deste projeto:
 ```bash
 echo "olá mundo!"
 ```
+Acesse o link:
+https://fritae.github.io/DocsSiteAlimentos/#passo-a-passo-como-usar-o-site
 
 ## Contato
 
