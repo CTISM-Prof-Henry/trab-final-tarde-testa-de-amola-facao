@@ -1,0 +1,262 @@
+[
+  {
+    "nome": "Estrogonofe",
+    "imagem": "assets/images/estrogonofe2.jpg",
+    "regiao": "Rússia",
+    "nutricionais": {
+      "energia": "275-300 kcal",
+      "carboidratos": "10-15 g",
+      "proteinas": "25-30 g",
+      "gorduras": "15-20 g",
+      "sodio": "900-1200 mg"
+    },
+    "historia": "Existe várias explicações para o nome deste prato, presumo-se que seja derivado do nome de algum membro da grande família Stroganov, Alexander Grigorievich Strogoff de Odessa ou o Conde Pavel Stroganov."
+  },
+  {
+    "nome": "Pizza",
+    "imagem": "assets/images/pizza.jpg",
+    "regiao": "Itália",
+    "nutricionais": {
+      "energia": "237-785 kcal",
+      "carboidratos": "26-100 g",
+      "proteinas": "10-16 g",
+      "gorduras": "10-41 g",
+      "sodio": "462-2000 mg"
+    },
+    "historia": "Surgiu no século XVIII em Nápoles, como um pão plano simples e acessível para os pobres, evoluindo com ingredientes como tomate e queijo após a chegada da Rainha Margherita."
+  },
+  {
+    "nome": "Sushi",
+    "imagem": "assets/images/sushi.jpg",
+    "regiao": "Japão",
+    "nutricionais": {
+      "energia": "35-931 kcal",
+      "carboidratos": "0-82 g",
+      "proteinas": "1-22 g",
+      "gorduras": "0-28 g",
+      "sodio": "217-1200 mg"
+    },
+    "historia": "Originou-se no século VIII como 'narezushi', peixe fermentado com arroz para preservação, transformando-se no sushi moderno no século XIX em Edo (atual Tóquio)."
+  },
+  {
+    "nome": "Paella",
+    "imagem": "assets/images/paella.jpg",
+    "regiao": "Espanha",
+    "nutricionais": {
+      "energia": "200-635 kcal",
+      "carboidratos": "29-66 g",
+      "proteinas": "11-38 g",
+      "gorduras": "6-17 g",
+      "sodio": "800-1050 mg"
+    },
+    "historia": "Criada no século XV na região de Valência por camponeses, usando arroz local e ingredientes da caça; evoluiu para versão com frutos do mar no século XIX."
+  },
+  {
+    "nome": "Tacos",
+    "imagem": "assets/images/tacos.jpg",
+    "regiao": "México",
+    "nutricionais": {
+      "energia": "210-615 kcal",
+      "carboidratos": "5-50 g",
+      "proteinas": "9-33 g",
+      "gorduras": "3-68 g",
+      "sodio": "160-900 mg"
+    },
+    "historia": "Raízes nos astecas pré-colombianos, que usavam tortilhas de milho com recheios; popularizado no século XVI após a conquista espanhola, tornando-se ícone da street food mexicana."
+  },
+  {
+    "nome": "Frango ao Curry",
+    "imagem": "assets/images/frangoaocurry.jpg",
+    "regiao": "Índia",
+    "nutricionais": {
+      "energia": "82-622 kcal",
+      "carboidratos": "6-82 g",
+      "proteinas": "6-63 g",
+      "gorduras": "3-68 g",
+      "sodio": "259-1500 mg"
+    },
+    "historia": "Desenvolvido na Índia antiga com especiarias ayurvédicas para preservar carnes; influenciado por muçulmanos persas no século XVI, espalhando-se via Império Britânico."
+  },
+  {
+    "nome": "Falafel",
+    "imagem": "assets/images/falafel.jpg",
+    "regiao": "Oriente Médio",
+    "nutricionais": {
+      "energia": "57-333 kcal",
+      "carboidratos": "5-32 g",
+      "proteinas": "2-13 g",
+      "gorduras": "3-18 g",
+      "sodio": "300 mg"
+    },
+    "historia": "Originário do Egito antigo como bolinhos de fava para copta cristãos em jejuns; popularizado em todo o Levante no século XIX como alimento de rua acessível."
+  },
+  {
+    "nome": "Kimchi",
+    "imagem": "assets/images/kimchi.jpg",
+    "regiao": "Coreia",
+    "nutricionais": {
+      "energia": "1-40 kcal",
+      "carboidratos": "0-4 g",
+      "proteinas": "0-2 g",
+      "gorduras": "0-1 g",
+      "sodio": "750 mg"
+    },
+    "historia": "Desenvolvido há 2000 anos para preservar vegetais no inverno rigoroso; versão moderna com pimenta surgiu no século XVI após introdução da pimenta vermelha."
+  },
+  {
+    "nome": "Croissant",
+    "imagem": "assets/images/croissant.jpg",
+    "regiao": "França",
+    "nutricionais": {
+      "energia": "114-452 kcal",
+      "carboidratos": "13-43 g",
+      "proteinas": "2-8 g",
+      "gorduras": "6-27 g",
+      "sodio": "313 mg"
+    },
+    "historia": "Inspirado no 'kipferl' austríaco do século XVII, adaptado em Paris no século XIX por padeiros como August Zang, tornando-se símbolo da confeitaria francesa."
+  },
+  {
+    "nome": "Pad Thai",
+    "imagem": "assets/images/padthai.jpg",
+    "regiao": "Tailândia",
+    "nutricionais": {
+      "energia": "308-1009 kcal",
+      "carboidratos": "14-82 g",
+      "proteinas": "14-33 g",
+      "gorduras": "8-19 g",
+      "sodio": "674-1500 mg"
+    },
+    "historia": "Criado na década de 1930 em Bangkok para promover noodles de arroz nacionais e reduzir fome; influenciado por imigrantes chineses e promovido pelo governo tailandês."
+  },
+  {
+    "nome": "Biryani",
+    "imagem": "assets/images/biryani.jpg",
+    "regiao": "Índia",
+    "nutricionais": {
+      "energia": "195-650 kcal",
+      "carboidratos": "21-63 g",
+      "proteinas": "7-63 g",
+      "gorduras": "4-35 g",
+      "sodio": "400-470 mg"
+    },
+    "historia": "Raízes persas no século XVI, trazido por muçulmanos à Índia; evoluiu em Hyderabad como prato de camadas de arroz e carne para festas reais."
+  },
+  {
+    "nome": "Lasanha",
+    "imagem": "assets/images/lasanha.jpg",
+    "regiao": "Itália",
+    "nutricionais": {
+      "energia": "135-502 kcal",
+      "carboidratos": "13-50 g",
+      "proteinas": "7-33 g",
+      "gorduras": "10-25 g",
+      "sodio": "600 mg"
+    },
+    "historia": "Documentada no século XIV em Nápoles como camadas de massa com queijo; popularizada na Renascença com molho de tomate do Novo Mundo."
+  },
+  {
+    "nome": "Hummus",
+    "imagem": "assets/images/hummus.jpg",
+    "regiao": "Oriente Médio",
+    "nutricionais": {
+      "energia": "25-166 kcal",
+      "carboidratos": "5-14 g",
+      "proteinas": "3-8 g",
+      "gorduras": "3-18 g",
+      "sodio": "200 mg"
+    },
+    "historia": "Receita egípcia antiga de grão-de-bico amassado com tahini; mencionado em textos do século XIII, espalhando-se como dip no Levante otomano."
+  },
+  {
+    "nome": "Feijoada",
+    "imagem": "assets/images/feijoada.jpg",
+    "regiao": "Brasil",
+    "nutricionais": {
+      "energia": "215-620 kcal",
+      "carboidratos": "23-50 g",
+      "proteinas": "14-42 g",
+      "gorduras": "2-32 g",
+      "sodio": "900-1333 mg"
+    },
+    "historia": "Adaptada de pratos portugueses de feijão no século XVI por escravos africanos no Brasil, usando sobras de carne; símbolo da culinária carioca no século XIX."
+  },
+  {
+    "nome": "Poutine",
+    "imagem": "assets/images/poutine.jpg",
+    "regiao": "Canadá",
+    "nutricionais": {
+      "energia": "202-886 kcal",
+      "carboidratos": "26-66 g",
+      "proteinas": "5-28 g",
+      "gorduras": "8-57 g",
+      "sodio": "1588 mg"
+    },
+    "historia": "Inventada na década de 1950 em Warwick, Quebec, por um dono de lanchonete adicionando queijo e molho a batatas fritas; ícone da cultura quebequense."
+  },
+  {
+    "nome": "Ratatouille",
+    "imagem": "assets/images/ratatouille.jpg",
+    "regiao": "França",
+    "nutricionais": {
+      "energia": "98-158 kcal",
+      "carboidratos": "12-50 g",
+      "proteinas": "2-14 g",
+      "gorduras": "2-11 g",
+      "sodio": "200 mg"
+    },
+    "historia": "Criada no século XVIII na Provença como guisado de vegetais de sobra; nomeada no século XIX em Nice, inspirando o filme da Pixar."
+  },
+  {
+    "nome": "Shepherd's Pie",
+    "imagem": "assets/images/shepherdspie.jpg",
+    "regiao": "Reino Unido",
+    "nutricionais": {
+      "energia": "159-420 kcal",
+      "carboidratos": "18-56 g",
+      "proteinas": "5-42 g",
+      "gorduras": "4-45 g",
+      "sodio": "500-590 mg"
+    },
+    "historia": "Surgiu no século XVIII como 'cottage pie' para usar sobras de carne de cordeiro por camponeses; popularizado na era vitoriana com purê de batata."
+  },
+  {
+    "nome": "Baklava",
+    "imagem": "assets/images/baklava.jpg",
+    "regiao": "Turquia",
+    "nutricionais": {
+      "energia": "73-458 kcal",
+      "carboidratos": "9-43 g",
+      "proteinas": "1-6 g",
+      "gorduras": "4-23 g",
+      "sodio": "150-215 mg"
+    },
+    "historia": "Raízes assírias antigas de camadas de massa com nozes; refinado no palácio otomano em Istambul no século XV como sobremesa real."
+  },
+  {
+    "nome": "Ceviche",
+    "imagem": "assets/images/ceviche.jpg",
+    "regiao": "Peru",
+    "nutricionais": {
+      "energia": "95-338 kcal",
+      "carboidratos": "5-33 g",
+      "proteinas": "10-43 g",
+      "gorduras": "1-31 g",
+      "sodio": "400-2830 mg"
+    },
+    "historia": "Prática inca pré-colombiana de 'marinar' peixe em suco de limão; influenciado por espanhóis no século XVI, tornando-se prato costeiro peruano."
+  },
+  {
+    "nome": "Pho",
+    "imagem": "assets/images/pho.jpg",
+    "regiao": "Vietnã",
+    "nutricionais": {
+      "energia": "217-940 kcal",
+      "carboidratos": "25-104 g",
+      "proteinas": "15-33 g",
+      "gorduras": "4-48 g",
+      "sodio": "1200-2507 mg"
+    },
+    "historia": "Criado no início do século XX em Hanói, misturando influências francesas e chinesas em caldo de osso; popularizado por imigrantes no pós-guerra."
+  }
+]
