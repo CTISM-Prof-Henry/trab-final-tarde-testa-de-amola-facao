@@ -43,7 +43,7 @@ function renderFoods(foods) {
     });
 }
 
-// Toggle Dropdown (Versão Corrigida: Fecha Completamente com Padding)
+// Toggle Dropdown 
 function toggleDropdown(header) {
     const content = header.nextElementSibling;
     const icon = header.querySelector('.dropdown-icon');
@@ -76,4 +76,5 @@ document.getElementById('searchInput').addEventListener('input', (e) => {
 function clearSearch() {
     document.getElementById('searchInput').value = '';
     renderFoods(alimentos);
+
 }
