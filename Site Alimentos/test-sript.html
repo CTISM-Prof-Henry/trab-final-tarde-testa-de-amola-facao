@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste-Script - QUnit</title>
+    <link rel="stylesheet" href="https://code.jquery.com/qunit/qunit-2.20.0.css">
+    <script src="https://code.jquery.com/qunit/qunit-2.20.0.js"></script>
+    <script src="script.js"></script>
+    <script>
+        // Dados mock simples para testes
+        const alimentosMock = [
+            { nome: "Teste1", imagem: "img1.jpg", regiao: "Regiao1", nutricionais: { energia: "100", carboidratos: "10", proteinas: "5", gorduras: "2", sodio: "50" }, historia: "Historia1" },
+            { nome: "Teste2", imagem: "img2.jpg", regiao: "Regiao2", nutricionais: { energia: "200", carboidratos: "20", proteinas: "10", gorduras: "4", sodio: "100" }, historia: "Historia2" }
+        ];
+
+        // Fixture para testes
+        QUnit.config.fixture = "#qunit-fixture";
+
+        QUnit.module("Testes - App de Alimentos");
+
+        QUnit.test("renderFoods: Limpa container e adiciona cards", function(assert) {
+            const container = document.createElement('div');
+            container.id = 'foodsContainer';
+            document.getElementById('qunit-fixture').appendChild(container);
+
+            renderFoods(alimentosMock);
+
+            const cards = container.querySelectorAll('.food-card');
+            assert.equal(cards.length, 2, "Deve renderizar 2 cards");
+            assert.ok(cards[0].querySelector('span').textContent.includes('Teste1'), "Primeiro card tem nome correto");
+        });
+
+        QUnit.test("toggleDropdown: Alterna visibilidade do conteúdo", function(assert) {
+            // Cria card simples
+            const card = document.createElement('div');
+            card.className = 'food-card';
+            card.innerHTML = `
+                <div class="food-card-header">
+                    <span>Test</span>
+                    <svg class="dropdown-icon"></svg>
+                </div>
+                <div class="food-card-content" style="max-height:0;padding:0;">
+                    <p>Conteúdo</p>
+                </div>
+            `;
+            document.getElementById('qunit-fixture').appendChild(card);
+
+            const header = card.querySelector('.food-card-header');
+            const content = card.querySelector('.food-card-content');
+            const icon = card.querySelector('.dropdown-icon');
+
+            // Expande
+            toggleDropdown(header);
+            assert.notEqual(content.style.maxHeight, '0px', "Expande conteúdo");
+            assert.ok(icon.classList.contains('rotated'), "Ícone rotaciona");
+
+            // Contrai
+            toggleDropdown(header);
+            assert.equal(content.style.maxHeight, '0px', "Contrai conteúdo");
+            assert.notOk(icon.classList.contains('rotated'), "Ícone desrotaciona");
+        });
+
+        QUnit.test("Filtro de busca: Filtra por nome simples", function(assert) {
+            // Mock global simples
+            window.alimentos = alimentosMock;
+
+            // Simula busca por "Teste1"
+            const query = "Teste1";
+            const filtered = alimentosMock.filter(food => 
+                food.nome.toLowerCase().includes(query.toLowerCase()) ||
+                Object.values(food.nutricionais).some(val => val.toString().toLowerCase().includes(query.toLowerCase()))
+            );
+
+            assert.equal(filtered.length, 1, "Filtra para 1 item");
+            assert.equal(filtered[0].nome, "Teste1", "Nome correto filtrado");
+        });
+
+        
+    </script>
+</head>
+<body>
+    <div id="qunit"></div>
+    <div id="qunit-fixture"></div>
+</body>
+</html>
