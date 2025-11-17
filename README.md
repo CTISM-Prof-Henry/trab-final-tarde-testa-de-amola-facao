@@ -2,6 +2,6 @@
 - [x] [Diagrama de caso de uso](https://github.com/CTISM-Prof-Henry/trab-final-tarde-testa-de-amola-facao/blob/main/diagrama_uml.md)
 - [x] [Documentação com MKDocs](https://fritae.github.io/DocsSiteAlimentos/#passo-a-passo-como-usar-o-site)
 - [x] linter com ESlinter
-- [ ] Teste Unitario
+- [x] Teste Unitario
 - [ ] Produto Final
 
