@@ -48,7 +48,7 @@ function toggleDropdown(header) {
     const content = header.nextElementSibling;
     const icon = header.querySelector('.dropdown-icon');
     
-    if (content.style.maxHeight && content.style.maxHeight !== '0px') {
+    if (content.style.maxHeight !== '0px') {
         // Fechando: Zera altura e padding
         content.style.maxHeight = '0px';
         content.style.padding = '0px';
@@ -78,3 +78,4 @@ function clearSearch() {
     renderFoods(alimentos);
 
 }
+
