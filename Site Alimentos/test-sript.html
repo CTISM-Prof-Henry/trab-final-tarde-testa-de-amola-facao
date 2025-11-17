@@ -8,13 +8,13 @@
     <script src="https://code.jquery.com/qunit/qunit-2.20.0.js"></script>
     <script src="script.js"></script>
     <script>
-        // Dados mock simples para testes
+        // Dados mock dos testes
         const alimentosMock = [
             { nome: "Teste1", imagem: "img1.jpg", regiao: "Regiao1", nutricionais: { energia: "100", carboidratos: "10", proteinas: "5", gorduras: "2", sodio: "50" }, historia: "Historia1" },
             { nome: "Teste2", imagem: "img2.jpg", regiao: "Regiao2", nutricionais: { energia: "200", carboidratos: "20", proteinas: "10", gorduras: "4", sodio: "100" }, historia: "Historia2" }
         ];
 
-        // Fixture para testes
+        // Fixture dos testes
         QUnit.config.fixture = "#qunit-fixture";
 
         QUnit.module("Testes - App de Alimentos");
@@ -32,7 +32,7 @@
         });
 
         QUnit.test("toggleDropdown: Alterna visibilidade do conteúdo", function(assert) {
-            // Cria card simples
+            // Cria o card
             const card = document.createElement('div');
             card.className = 'food-card';
             card.innerHTML = `
@@ -62,7 +62,7 @@
         });
 
         QUnit.test("Filtro de busca: Filtra por nome simples", function(assert) {
-            // Mock global simples
+            
             window.alimentos = alimentosMock;
 
             // Simula busca por "Teste1"
@@ -83,4 +83,5 @@
     <div id="qunit"></div>
     <div id="qunit-fixture"></div>
 </body>
+
 </html>
