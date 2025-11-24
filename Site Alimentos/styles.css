@@ -170,6 +170,8 @@ body {
     }
     .nutritional-item, .history-section {
         padding: 10px; /* Reduz um pouco em mobile, mas mantém legível */
+        margin-bottom: 10px;
     }
 
 }
+
