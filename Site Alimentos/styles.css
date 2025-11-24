@@ -129,6 +129,7 @@ body {
     grid-template-columns: 1fr 1fr;
     gap: 15px; /* Aumentado para mais espaço entre itens */
     margin-bottom: 15px;
+    padding: 12px;
 }
 .nutritional-item {
     background-color: #fff3cd;
@@ -170,4 +171,5 @@ body {
     .nutritional-item, .history-section {
         padding: 10px; /* Reduz um pouco em mobile, mas mantém legível */
     }
+
 }
